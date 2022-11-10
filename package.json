@@ -1,0 +1,18 @@
+{
+  "name": "tap-parser-combinator",
+  "version": "0.0.1",
+  "description": "Experimental approach to parser TAP version 13",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "TAP",
+    "node:test",
+    "parser",
+    "parser",
+    "combinator"
+  ],
+  "author": "Kieran Mann <kieranjarrettmann@gmail.com>",
+  "license": "MIT"
+}
