@@ -1,0 +1,1 @@
+export { parseTap } from './parser-combinator/tap-parser';
