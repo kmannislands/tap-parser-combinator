@@ -1,6 +1,5 @@
 import type { IContext } from './context.js';
 
-// TODO base token?
 export interface Token {
     type: string;
 };

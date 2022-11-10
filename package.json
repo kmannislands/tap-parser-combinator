@@ -3,19 +3,21 @@
   "version": "0.0.1",
   "description": "Experimental approach to parser TAP version 13",
   "main": "dist/index.js",
-  "scripts": {
-    "test": "node --test"
-  },
+  "type": "module",
   "keywords": [
     "TAP",
     "node:test",
     "parser",
-    "parser",
-    "combinator"
+    "parser combinator"
   ],
   "author": "Kieran Mann <kieranjarrettmann@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "compile": "tsc -b",
+    "test": "node --test ./dist"
+  },
   "devDependencies": {
+    "@types/node": "^18.11.9",
     "typescript": "^4.8.4"
   }
 }
